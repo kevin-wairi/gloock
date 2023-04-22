@@ -4,6 +4,7 @@ import "./comp.css"
 
 function Section(){   
 
+  //array of images to be rendered in slider
  const slides = [
      {url: "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg?t=1680026109"},
      {url: "https://cdn.cloudflare.steamstatic.com/steam/apps/1938090/header_alt_assets_3.jpg?t=1681315823"},

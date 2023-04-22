@@ -1,6 +1,7 @@
 import React from "react";
 import "./comp.css";
 
+//compnent for the logo bar
 function Header(){
    return (
      <header>
