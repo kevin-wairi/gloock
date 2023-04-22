@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&display=swap");
+header {
+  height: 100px;
+  margin-top: 0px;
+  display: flex;
+  background-color: #272422;
+}
+.logoName {
+  margin: 0px;
+  color: white;
+  margin: 0 auto;
+  font-family: "Gloock", serif;
+  padding-top: 10px;
+  align-self: center;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+.landing {
+  background-image: url("./images/land.jpg");
+  height: 500px;
+    padding-top: 50px;
+  background-size: 100%;
+}
+
+.slideContainer {
+  width: 700px;
+  height: 400px;
+  position: center;
+  margin: 0 auto;
+  border: 1px solid;
+}
+
+.section_container {
+  height: 100%;
+  position: relative;
+}
+.left_arrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 10px;
+    font-size: 30px;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+}
+.arrow_right{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+}
